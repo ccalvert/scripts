@@ -1,1 +1,1 @@
-pbpaste | gawk -f C:\bat\attributions.gawk | pbcopy
+pbpaste | gawk -f ~/scripts/attributions.gawk | pbcopy

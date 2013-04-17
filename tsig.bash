@@ -1,3 +1,1 @@
-@echo off
-
-type C:\bat\tsig.txt | pbcopy
+pbcopy < ~/scripts/tsig.txt
