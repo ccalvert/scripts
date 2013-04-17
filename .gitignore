@@ -1,0 +1,12 @@
+*.exe
+*.swp
+CHANGES.TXT
+COPYING.TXT
+FILEFORMAT.TXT
+HASHDEEP.TXT
+MD5DEEP.TXT
+ReadMe.txt
+SCANFILE.EXE
+debug.txt
+smtp.ini
+
