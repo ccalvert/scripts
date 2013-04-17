@@ -1,2 +1,2 @@
 @echo off
-pclip | sed "s/^/>/" | gclip
+pbpaste | sed "s/^/>/" | pbcopy

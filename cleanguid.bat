@@ -1,1 +1,1 @@
-pclip | sed "s/[{}]//g" | sed "s/-/_/g" | gclip
+pbpaste | sed "s/[{}]//g" | sed "s/-/_/g" | pbcopy

@@ -1,3 +1,3 @@
 @echo off
 
-type C:\bat\tsig.txt | gclip
+type C:\bat\tsig.txt | pbcopy

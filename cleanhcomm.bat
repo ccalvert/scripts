@@ -1,1 +1,1 @@
-pclip | sed "s/^\*\*[ ]*//g" | fmt -w 80 | sed "s/^/\*\* /g" | gclip
+pbpaste | sed "s/^\*\*[ ]*//g" | fmt -w 80 | sed "s/^/\*\* /g" | pbcopy
