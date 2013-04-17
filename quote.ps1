@@ -1,0 +1,1 @@
+pclip | sed "s/^/>/" | gclip

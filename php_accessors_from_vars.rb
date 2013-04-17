@@ -1,0 +1,32 @@
+ARGF.each do |line|
+    var = line.sub(/\$/, '').sub(/private/, '').sub(/;/, '').strip()
+#	print "var = #{var}\n"
+	camel_var = var.gsub(/(^|_)([a-z])/) { $2.upcase }
+#	print "camel_var[0,0] = #{camel_var[0,1]}\n"
+#	print "camel_var = #{camel_var}\n"
+	print "\t/*********************************************************************\n"
+	print "\t** get#{camel_var}\n"
+	print "\t**\n"
+	print "\t** \n"
+	print "\t*********************************************************************/\n"
+	print "\tpublic function get#{camel_var}()\n"
+	print "\t{\n"
+	print "\t\treturn $this->#{var};\n"
+	print "\t}\n"
+	print "\n"
+	print "\t/*********************************************************************\n"
+	print "\t** set#{camel_var}\n"
+	print "\t**\n"
+	print "\t** \n"
+	print "\t**\n"
+	print "\t** Arguments:\n"
+	print "\t**\n"
+	print "\t**\t\n"
+	print "\t*********************************************************************/\n"
+	print "\tpublic function set#{camel_var}($#{var})\n"
+	print "\t{\n"
+	print "\t\t$this->#{var} = $#{var};\n"
+	print "\t}\n"
+	print "\n"
+	
+end
