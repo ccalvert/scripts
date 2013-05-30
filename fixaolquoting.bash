@@ -1,1 +1,1 @@
-pbpaste | sed "s/     />/g" | pbcopy
+pbpaste | sed "s/     /> /g" | pbcopy
