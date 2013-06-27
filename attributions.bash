@@ -1,1 +1,1 @@
-pbpaste | gawk -f ~/scripts/attributions.gawk | pbcopy
+xclip -o | gawk -f ~/scripts/attributions.gawk | xclip

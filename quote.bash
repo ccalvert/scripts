@@ -1,1 +1,1 @@
-pbpaste | sed "s/^/>/" | pbcopy
+xclip -o | sed "s/^/>/" | xclip

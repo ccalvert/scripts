@@ -1,1 +1,1 @@
-pbcopy < ~/scripts/tsig.txt
+xclip < ~/scripts/tsig.txt

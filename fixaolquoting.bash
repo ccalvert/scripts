@@ -1,1 +1,1 @@
-pbpaste | sed "s/     />/g" | pbcopy
+xclip -o | sed "s/     />/g" | xclip
