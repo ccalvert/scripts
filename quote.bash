@@ -1,1 +1,1 @@
-xclip -o | sed "s/^/>/" | xclip
+xclip -selection clipboard -o | sed "s/^/>/" | xclip -selection clipboard

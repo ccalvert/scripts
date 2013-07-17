@@ -1,1 +1,1 @@
-xclip < ~/scripts/tsig.txt
+xclip -selection clipboard < ~/scripts/tsig.txt

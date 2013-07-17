@@ -9,4 +9,4 @@
 # Command: sed "s/( /(/g"	Removes any spaces after an opening parenthesis
 # Command: sed "s/ )/)/g"	Removes any spaces before a closing parenthesis
 
-xclip -o | sed "/--/d" | tr \r \040 | tr \n \040 | tr \011 \040 | tr -s \040 | sed "s/ ,/,/g" | sed "s/( /(/g" | sed "s/ )/)/g" | xclip
+xclip -selection clipboard -o | sed "/--/d" | tr \r \040 | tr \n \040 | tr \011 \040 | tr -s \040 | sed "s/ ,/,/g" | sed "s/( /(/g" | sed "s/ )/)/g" | xclip -selection clipboard

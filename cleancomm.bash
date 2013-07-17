@@ -1,1 +1,1 @@
-xclip -o | sed "s/^\([[:space:]]*\)\/\/ /\1/" | fmt -w 85 | sed "s/^\([[:space:]]*\)/\1\/\/ /g" | xclip
+xclip -selection clipboard -o | sed "s/^\([[:space:]]*\)\/\/ /\1/" | fmt -w 85 | sed "s/^\([[:space:]]*\)/\1\/\/ /g" | xclip -selection clipboard

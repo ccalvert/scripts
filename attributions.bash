@@ -1,1 +1,1 @@
-xclip -o | gawk -f ~/scripts/attributions.gawk | xclip
+xclip -selection clipboard -o -selection clipboard | gawk -f ~/scripts/attributions.gawk | xclip -selection clipboard -selection clipboard
